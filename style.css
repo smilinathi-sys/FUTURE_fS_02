@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* HEADER */
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* BOX STYLE */
+.box {
+    width: 420px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* INPUT */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* BUTTON */
+button {
+    padding: 8px 12px;
+    margin: 3px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #2d89ef;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #1b5fcc;
+}
+
+/* TABLE */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #2d89ef;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* ACTION BUTTON COLORS */
+button:nth-child(1) { background: #f39c12; } /* Contacted */
+button:nth-child(2) { background: #27ae60; } /* Converted */
+button:nth-child(3) { background: #8e44ad; } /* Note */
+button:nth-child(4) { background: #e74c3c; } /* Delete */
+
+button:hover {
+    opacity: 0.85;
+}
